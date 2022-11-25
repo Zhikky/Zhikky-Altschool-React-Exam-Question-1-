@@ -1,0 +1,36 @@
+
+
+i{
+    object-fit: fill;
+    color: #bac964;
+    display: flex;
+}
+
+.footer{
+    background-color: #222;
+}
+
+.footer_container{
+    display: flex;
+    width: 40%;
+    height: 50px;
+    margin: 0px auto;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook:hover, .instagram:hover, .twitter:hover, .linkedin:hover{
+    transform: scale(1.4);
+}
+
+.facebook, .instagram, .twitter, .linkedin{
+    width: 40px;
+    height: 40px;
+    margin: 0px 30px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
