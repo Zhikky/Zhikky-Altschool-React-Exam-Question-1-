@@ -230,9 +230,72 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 780px) {
-  .logo_container {
-    width: 90%;
-    height: 60%;
+@media (max-width: 480px) {
+  .about_container, .details_container {
+    width: 85%;
   }
+
+  .hire_button{
+    font-size: 15px;
+  }
+
+  .button2{
+    width: 180px;
+  }
+
+  .header_text,
+.header_text2 {
+  color: white;
+  font-size: 20px;
+}
+
+.header_title{
+  font-size: 55px;
+}
+
+.header{
+  height: 70%;
+}
+
+.logo {
+  width: 80%;
+  height: 30%;
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .logo {
+  width: 90%;
+  height: 37%;
+}
+
+.about_container, .details_container {
+    width: 75%;
+  }
+
+    .header_text,
+.header_text2 {
+  font-size: 40px;
+}
+
+.header_title{
+  font-size: 75px;
+}
+
+.header{
+  height: 90%;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header{
+  height: 80%;
+}
+
+ .logo {
+  width: 85%;
+  height: 50%;
+}
+
 }

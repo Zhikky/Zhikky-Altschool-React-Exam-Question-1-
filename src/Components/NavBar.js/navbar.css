@@ -23,3 +23,35 @@ a{
     color: rgb(254, 254, 254);
     font-size: large;
 }
+
+@media (max-width: 480px){
+.navbar-links{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar-container{
+    height: 90px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+.navbar-links{
+    width: 90%;
+}
+
+.navbar-container{
+    height: 90px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar-links{
+    width: 70%;
+}
+
+.navbar-container{
+    height: 90px;
+}
+
+}
