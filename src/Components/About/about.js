@@ -14,7 +14,7 @@ function About() {
           more and even start a career in tech. I am hopeful for the journey
           ahead.
           <br />
-          <br />I am skilled, very effective,and ready to work!!!.
+          <br />I am skilled in various front-end technologies such as HTML, CSS, JavaScript, React, and I am ready to work!!!.
         </p>
         <div className="button_container">
           <div className="button1">
